@@ -1,0 +1,44 @@
+/* RESET DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* MAIN */
+.main {
+}
+
+/* 1. NAV BAR */
+.navbar {
+}
+
+.navbar-links {
+}
+
+.navbar-links a {
+}
+
+/* 2. HERO SECTION */
+.hero {
+}
+
+/* 3. PROJECTS SECTION */
+.projects {
+}
+
+.project-cards {
+}
+
+.cards {
+}
+
+/* FOOTER */
+.footer {
+}
