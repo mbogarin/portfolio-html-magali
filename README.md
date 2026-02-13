@@ -72,15 +72,11 @@ Before running this project, make sure you have:
 
 ![Full Page View](images-portfolio/screenshots/full-page-view.png)
 
-[<img src="images/homepage.png" alt="Homepage" width="600"/>](images-portfolio/screenshots/full-page-view.png)
-
 ---
 
 ### Hero Section
 
 ![Hero Section](images-portfolio/screenshots/hero.png)
-
-[<img src="images/homepage.png" alt="Hero Section" width="600"/>](images-portfolio/screenshots/hero.png)
 
 ---
 
@@ -88,11 +84,7 @@ Before running this project, make sure you have:
 
 ![Projects Section](images-portfolio/screenshots/projects.png)
 
-[<img src="images/homepage.png" alt="Projects" width="600"/>](images-portfolio/screenshots/projects.png)
-
 ![Projects Section](images-portfolio/screenshots/projects-flexbox.png)
-
-[<img src="images/homepage.png" alt="Projects Flexbox" width="600"/>](images-portfolio/screenshots/projects-flexbox.png.png)
 
 ## 🤝 Collaborators
 
