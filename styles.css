@@ -141,7 +141,7 @@ header {
 }
 
 .cards {
-  width: 350px;
+  width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 8px #555;
   overflow: hidden;
@@ -150,8 +150,7 @@ header {
 }
 
 .cards img {
-  width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   box-shadow: 0 4px 4px gray;
   margin-bottom: 20px;
@@ -185,7 +184,7 @@ header {
 .footer-buttons {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 .footer-buttons a {
@@ -193,10 +192,10 @@ header {
 }
 
 .footer-buttons button {
-  padding: 2px;
+  padding: 3px;
   background-color: rgb(72, 99, 132);
   color: rgb(72, 99, 132);
-  width: 80px;
+  width: 110px;
   border: 1px solid white;
   border-radius: 10px;
   box-shadow: 0 0px 2px white;
