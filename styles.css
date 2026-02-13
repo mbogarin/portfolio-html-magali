@@ -16,11 +16,11 @@ body {
 
 li {
   display: inline;
-} /* lines up list items next to each other */
+}
 
 ul {
   list-style: none;
-} /* removes bullets from all lists */
+}
 
 /* MAIN */
 .main {
@@ -33,7 +33,7 @@ header {
   padding-bottom: 10px;
 }
 .myname {
-  padding: 15px 0 10px 0;
+  padding: 25px 0 10px 0;
   font-size: 35pt;
   font-family: impact;
   background-color: rgb(72, 99, 132);
@@ -73,55 +73,71 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 25px;
-  margin: 20px 200px 30px 200px;
-  background-color: aliceblue;
-  border-radius: 10px;
+}
+
+.hero-grid {
+  width: 100%;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 4px 8px slategray;
-  text-align: center;
+  margin: 25px 35px 30px 35px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px #555;
+}
+
+.hero-image-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }
 
 .hero img {
-  width: 75%;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   object-fit: cover;
-  opacity: 75%;
-  box-shadow: 0 4px 8px slategray;
-  margin-top: 15px;
+  opacity: 85%;
+  overflow: hidden;
 }
 
 .hero p {
-  margin: 10px 0 10px 0;
+  margin: 15px 10px 0 10px;
+  font-size: 14pt;
+}
+
+.hero h2 {
+  font-size: 25pt;
+}
+
+.hero-content {
+  padding: 40px 50px 30px 50px;
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* 3. PROJECTS SECTION */
-
 .project-title {
   padding: 15px;
-  margin: 0 50px 0 50px;
+  margin: 0 35px 0 35px;
   background-color: rgb(72, 99, 132);
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px slategray;
-  font-size: 16pt;
+  font-size: 18pt;
 }
 
 .project-cards {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   gap: 10px;
   flex-wrap: wrap;
   margin: 25px 0 30px 0;
   width: 100%;
-}
-
-/* Mobile Styles */
-@media (max-width: 768px) {
-  .project-cards {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .cards {
@@ -142,14 +158,15 @@ header {
 }
 
 .card-content p {
-  margin: 5px 10px 20px 10px;
+  margin: 8px 15px 25px 15px;
 }
 
 /* FOOTER */
 .footer {
-  padding: 20px 0 15px 0;
+  padding: 30px 0 15px 0;
   background-color: rgb(72, 99, 132);
   color: white;
+  opacity: 85%;
 }
 
 .footer a:hover {
