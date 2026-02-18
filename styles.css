@@ -112,10 +112,15 @@ header {
   padding: 40px 50px 30px 50px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 599px) {
   .hero-grid {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 20px;
+    padding: auto 20px;
   }
 }
 
@@ -141,12 +146,25 @@ header {
 }
 
 .cards {
-  width: 500px;
+  flex: 1 1 300px;
+  max-width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 8px #555;
   overflow: hidden;
   text-align: center;
   margin: 20px 25px 20px 25px;
+}
+
+@media only screen and (max-width: 599px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 20px;
+    padding: 0 20px;
+  }
 }
 
 .cards img {
@@ -162,14 +180,14 @@ header {
 
 /* FOOTER */
 .footer {
-  padding: 30px 0 15px 0;
+  padding: 20px 0 15px 0;
   background-color: rgb(72, 99, 132);
   color: white;
   opacity: 85%;
 }
 
 .footer a:hover {
-  color: rgb(74, 150, 255);
+  color: rgb(0, 149, 255);
 }
 
 .footer a {
@@ -181,25 +199,19 @@ header {
   margin-top: 0px;
 }
 
-.footer-buttons {
+.social-links {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  margin-bottom: 18px;
 }
 
-.footer-buttons a {
+.social-links a {
   color: white;
-}
-
-.footer-buttons button {
-  padding: 3px;
-  background-color: rgb(72, 99, 132);
-  color: rgb(72, 99, 132);
-  width: 110px;
+  padding: 4px;
+  background-color: rgb(23, 62, 108);
   border: 1px solid white;
-  border-radius: 10px;
-  box-shadow: 0 0px 2px white;
+  border-radius: 6px;
+  box-shadow: 0 0px 2px rgb(253, 252, 252);
   cursor: pointer;
-  margin-bottom: 15px;
-  opacity: 90%;
+  opacity: 80%;
 }
